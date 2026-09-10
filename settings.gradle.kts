@@ -1,0 +1,1 @@
+rootProject.name = "hw_sde_2"
