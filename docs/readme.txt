@@ -23,3 +23,6 @@ word, guess, number_correct_guesses, number_wrong_guesses ----> status: updated_
 5. word = "wander'st", guess = "wander'st", num_correct = 0, num_wrong = 0 -> correct, num_correct = 1, num_wrong = 0
 
 All tests passed
+
+How to run:
+cd src/main/java/Main && java Main.java
