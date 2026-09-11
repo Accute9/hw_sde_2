@@ -12,8 +12,14 @@ repeat while correct guesses and incorrect guesses less than 3
 Note: Punctuation must be included
 
 Tests:
+
+Format:
+word, guess, number_correct_guesses, number_wrong_guesses ----> status: updated_num_correct, updated_num_wrong, stop_loop_or_continue
+
 1. word = "eternal", guess = "eternal", num_correct = 2, num_wrong = 1 -> correct: num_correct = 3, num_wrong = 1, end loop
 2. word = "death", guess = "brag", num_correct = 1, num_wrong = 0 -> wrong: num_correct = 1, num_wrong = 2, continue
 3. word = "possession", guess = "possession", num_correct = 1, num_wrong = 2 -> correct: num_correct = 2, num_wrong = 2, continue
 4. word = "day?", guess = "day", num_correct = 1, num_wrong = 2 -> wrong: num_correct = 1, num_wrong = 3, end loop
 5. word = "wander'st", guess = "wander'st", num_correct = 0, num_wrong = 0 -> correct, num_correct = 1, num_wrong = 0
+
+All tests passed
