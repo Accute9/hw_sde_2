@@ -1,0 +1,6 @@
+Main-uml
+__________
++ main(String[] args)
++ prithee()
+
+
