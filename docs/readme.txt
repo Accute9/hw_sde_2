@@ -26,3 +26,7 @@ All tests passed
 
 How to run:
 cd src/main/java/Main && java Main.java
+
+Sources:
+Generate random number in java: https://medium.com/@AlexanderObregon/generating-random-numbers-in-java-within-a-range-7782d4cae298
+Splitting strings in java: https://www.w3schools.com/java/ref_string_split.asp
